@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CONTACT</title>
+    <script type="text/javascript">
+    function validate()
+    {
+        var username=document.getElementById("firstname");
+        if(username.value=="")
+            {
+                alert("No blank values allowed");
+                return false;
+            }
+        else
+            {
+                return true;
+            }
+    }
+        
+    </script>
+    <link href="style5.css" rel="stylesheet" type="text/css">
+    </head>
+<body bgcolor="#ffdd99">
+    <header>
+    <div class="MESAJ">
+        <h1>OUR BEST<br>DESTINATIONS</h1>
+   </div>
+        <div class="row">
+            <div class="logo">
+                <img src="images/logo2.png"
+            </div>
+        <ul class="main-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="prefe.html">WHAT YOU PREFER?</a></li>
+            <li><a href="bestsellers.html">BESTSELLERS </a></li>
+            <li><a href="deals.html">LAST MINUTE DEALS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+    </header>        
+        <section class="features">
+          <h2 class="text-center">IF YOU WANT TO TAKE PART OF OUR TRIPS</h2>   
+      </section> 
+          <section class="features">
+          <h3 class="text-center">YOU CAN CALL US:<BR>0725261412</h3>   
+      </section>
+        <section class="features">
+          <h3 class="text-center">YOU CAN SEND AN E-MAIL :<BR>amazingtrips@gmail.com</h3>   
+      </section>
+            <section class="features">
+          <h3 class="text-center">YOU CAN COMPLETE THE FORM BELOW :</h3>   
+      </section>
+            </table>
+</nav>
+<hr>
+<div>
+<tr> <td>
+<form onsubmit="return validate()" action="index.html">
+<form><div class="formular">
+    <legend>  <B>COMPLETE YOUR PERSONAL DATA:</B>
+</legend>
+    <BR>
+        <B>FIRST NAME: </B><input type="text" size=30> <br> <br> 
+        <B>SECOND NAME:</B> <input type="text" size=30><br><br>
+        <B>DATE OF BIRTH: </B><input type="text" size=2>
+<input id="firstname" type="text" size=2>
+<input type="text" size=5><br><br>
+        <B>ID NUMBER:</B> <input type="text" size=20><BR><BR>
+        <B>CITY:</B> <input type="text" size=20> <BR><BR>
+        <B>ADRESS:</B><BR>
+        <B>STREET:</B><input type="text" size=2>
+        <B>NUMBER:</B><input type="text" size=2>
+        <B>GENDER:</B>
+ <input type="radio" name="sex">F 
+ <input type="radio" name="sex">M <br> <br>
+        <B>NATIONALITY:</B>
+<select>
+<option> ROMANIAN </option>
+<option>  ENGLISH </option>
+<option>  FRENCH  </option> 
+<option>  SPANISH  </option>
+<option> ITALIAN  </option>
+<option> RUSSIAN </option></select><br><br><BR><form>
+        <fieldset><legend> <B>PLEASE GIVE US A FEEDBACK FOR IMPROVING OUR SERVICES</B> </legend>
+<textarea rows=17 cols=100> </textarea>
+     <div class="button" type="submit" onclick="validate()">
+        <a href="index.html" class="btn">SEND</a>
+        </div>
+            <BR><BR><BR><center><B>AMAZING TRIPS</B></center></BR></BR>
+                </form>
+</td>
+</tr>
+</td>
+</tr>
+</table>
+</center>
+<table align="center" width=10% height=5% border=1 cellspacing=0 cellpadding=16 bgcolor=white> 
+</table>
+    </div>
+    </div>
+    </body>
+</html>

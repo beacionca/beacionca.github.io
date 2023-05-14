@@ -1,0 +1,137 @@
+*
+{
+ margin:0;
+ padding:0;  
+}
+
+.row
+{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+body
+{
+    font-family:tahoma;
+}
+
+.MESAJ
+{
+    position:absolute;
+    width:1140px;
+    margin-top: 20PX;
+    margin-left: 60px;
+    top=90%;
+    left=50%;
+    transform: translate(90%,90%);
+}
+
+header
+{
+    background-image:url(images/sales2.png);
+    height:100vh;
+    background-position: center;
+    background-size:cover;
+}
+
+h1
+{
+    color:brown;
+}
+
+.main-nav
+{
+    list-style:none;
+    float:right;
+    margin-top: 1px;
+    margin-left: 400px;
+}
+
+.main-nav li
+{
+    display:inline-block;
+    margin-left:20px;
+    margin-right:none;
+    margin-top: 1px;
+    font-size: 15px;
+}
+
+.main-nav li a
+{
+    color:midnightblue;
+    text-decoration:inherit;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+.main-nav li a:hover
+{
+    color: #00cccc;
+    transition:all 0.5s ease-in;
+    padding-right:20px;
+}
+
+.logo img
+{
+    height: 160px;
+    float:left;
+    margin-right: 10000px;
+    margin-top: 20px;
+}
+
+.mesaj2
+{
+    position:absolute;
+    width:10px;
+    margin-top: 190px;
+    font-size: 70px;
+    float:left;
+    color:#008080;
+}
+
+.mesaj2:hover
+{
+    color: black;
+}
+
+h3:after
+{
+    width:100px;
+    height:2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.features h3
+{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.btn
+{
+    margin-left: 34%;
+    border:4px solid #990000;
+    font-size: 34px;
+    font-weight: bold;
+    padding:20px 60px;
+    color:tomato;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.btn:hover
+{
+    color:red;
+}
+
+.button
+{
+    margin-top: 40px;
+    margin-left: 2px;
+}
